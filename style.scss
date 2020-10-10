@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 150px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.watch {
+  align-self: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.watch-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  height: 160px;
+  background-color: red;
+}
+
+.hidden {
+  display: none;
+}
